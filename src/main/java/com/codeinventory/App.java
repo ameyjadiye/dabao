@@ -64,8 +64,7 @@ public class App {
 				}
 			} else if (args[1].equals("-r")) {
 				File f = new File(args[0]);
-				Ball<String> ball = (Ball<String>) Serializer.deSerialize(f
-						.getPath());
+				Ball<String> ball = (Ball<String>) Serializer.deSerialize(f.getPath());
 
 				StringBuilder builder = new StringBuilder();
 
